@@ -3,15 +3,23 @@ body{
 
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 625px) {
     body {
       background-color: darkblue;
     }
   }
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:320px)  { /* Moblie */ }
+@media (min-width:1025px) { /* Tablets and Desktops */ }
+@media (min-width:1281px) { /* Desktops */ }
+
+h2{
+    color: orange;
+}
+
+form{
+    color: orange;
+}
 
 
 .sun{
@@ -45,6 +53,8 @@ body{
 .squares{
 
     display: flex;
+    margin-left: 10px;
+
 
 }
 
@@ -70,13 +80,13 @@ body{
     /* width: 0; 
     height: 0;  */
     /* height: 100px; */
-    width: 20px;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    width: 0px;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
     
-    border-bottom: 100px solid lightgreen;
+    border-bottom: 210px solid lightgreen;
 
-    margin-right: 50px;
+    margin-right: 25px;
     margin-left: auto;
   }
 
