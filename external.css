@@ -1,0 +1,89 @@
+body{
+    background-color: skyblue;
+
+}
+
+@media screen and (min-width: 550px) {
+    body {
+      background-color: darkblue;
+    }
+  }
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+.sun{
+    
+
+    height: 100px;
+    width: 100px;
+
+    background-color: orange;
+    border-radius: 50%;
+    margin-bottom: 200px;
+    /* align-items: end; */
+    margin-right: 0px;
+    margin-left: auto;
+    
+   
+    /* float: right; */
+    
+}
+
+#grass{
+
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    z-index: 1;
+
+
+}
+
+.squares{
+
+    display: flex;
+
+}
+
+.gray{
+   
+    background-color: gray;
+    height: 40vh;
+    width: 5vw;
+    margin-right: 10px;
+
+}
+
+.darkgray{
+   
+    background-color: darkgray;
+    height: 40vh;
+    width: 7vw;
+    margin-right: 10px;
+
+}
+
+.arrow-up {
+    /* width: 0; 
+    height: 0;  */
+    /* height: 100px; */
+    width: 20px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-bottom: 100px solid lightgreen;
+
+    margin-right: 50px;
+    margin-left: auto;
+  }
+
+
+form{
+
+    border: 4px solid orange;
+
+
+}
